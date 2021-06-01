@@ -10,7 +10,7 @@ text.innerHTML = "Start Warten für 3 Sekunden..."
 
 const SecTimeout = () => {
     setTimeout(() => {
-        text.innerHTML = `"Erledigt. Du hast 3 Sekunden verschwendet."`
+        text.innerHTML = "Erledigt. Du hast 3 Sekunden verschwendet."
     }, 1000)
 }
 SecTimeout()
